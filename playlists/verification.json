@@ -1,0 +1,259 @@
+[
+  {
+    "Ok": true,
+    "Url": "https://kamerayayin.ibb.istanbul/turistikcam/anadoluhisari.stream/playlist.m3u8",
+    "Segment": "https://kamerayayin.ibb.istanbul/turistikcam/anadoluhisari.stream/media_w1990410445_16457.ts",
+    "SampleBytes": 3512,
+    "CheckedAt": "2026-10-02T11:06:17.4434028Z",
+    "SourcePage": "https://istanbuluseyret.ibb.istanbul/tr/turistik-kamera/anadolu-hisari",
+    "Name": "anadolu-hisari"
+  },
+  {
+    "Ok": true,
+    "Url": "https://kamerayayin.ibb.istanbul/turistikcam/beyazitkulesi2.stream/playlist.m3u8",
+    "Segment": "https://kamerayayin.ibb.istanbul/turistikcam/beyazitkulesi2.stream/media_w23359726_4301.ts",
+    "SampleBytes": 3512,
+    "CheckedAt": "2026-10-02T11:06:17.7047065Z",
+    "SourcePage": "https://istanbuluseyret.ibb.istanbul/tr/turistik-kamera/beyazit-kulesi-2",
+    "Name": "beyazit-kulesi-2"
+  },
+  {
+    "Ok": true,
+    "Url": "https://kamerayayin.ibb.istanbul/turistikcam/beyazitmeydan.stream/playlist.m3u8",
+    "Segment": "https://kamerayayin.ibb.istanbul/turistikcam/beyazitmeydan.stream/media_w2143379170_3472.ts",
+    "SampleBytes": 3512,
+    "CheckedAt": "2026-10-02T11:06:17.9130290Z",
+    "SourcePage": "https://istanbuluseyret.ibb.istanbul/tr/turistik-kamera/beyazit-meydani",
+    "Name": "beyazit-meydani"
+  },
+  {
+    "Ok": true,
+    "Url": "https://kamerayayin.ibb.istanbul/turistikcam/buyukcamlica.stream/playlist.m3u8",
+    "Segment": "https://kamerayayin.ibb.istanbul/turistikcam/buyukcamlica.stream/media_w1098399472_16463.ts",
+    "SampleBytes": 3512,
+    "CheckedAt": "2026-10-02T11:06:18.1205317Z",
+    "SourcePage": "https://istanbuluseyret.ibb.istanbul/tr/turistik-kamera/buyuk-camlica",
+    "Name": "buyuk-camlica"
+  },
+  {
+    "Ok": true,
+    "Url": "https://kamerayayin.ibb.istanbul/turistikcam/dragos.stream/playlist.m3u8",
+    "Segment": "https://kamerayayin.ibb.istanbul/turistikcam/dragos.stream/media_w598149997_16462.ts",
+    "SampleBytes": 3512,
+    "CheckedAt": "2026-10-02T11:06:18.3236472Z",
+    "SourcePage": "https://istanbuluseyret.ibb.istanbul/tr/turistik-kamera/dragos",
+    "Name": "dragos"
+  },
+  {
+    "Ok": true,
+    "Url": "https://kamerayayin.ibb.istanbul/turistikcam/eminonu.stream/playlist.m3u8",
+    "Segment": "https://kamerayayin.ibb.istanbul/turistikcam/eminonu.stream/media_w2109143734_6858.ts",
+    "SampleBytes": 3512,
+    "CheckedAt": "2026-10-02T11:06:18.5358125Z",
+    "SourcePage": "https://istanbuluseyret.ibb.istanbul/tr/turistik-kamera/eminonu",
+    "Name": "eminonu"
+  },
+  {
+    "Ok": true,
+    "Url": "https://turkmedya-live.ercdn.net/tv24/tv24.m3u8",
+    "Segment": "https://turkmedya-live.ercdn.net/tv24/tv24_1080p-1790939076.ts",
+    "SampleBytes": 3737,
+    "CheckedAt": "2026-10-02T11:06:19.3478138Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
+    "Segment": "https://turkmedya-live.ercdn.net/tv360/tv360_1080p-1790939113.ts",
+    "SampleBytes": 3736,
+    "CheckedAt": "2026-10-02T11:06:19.5907738Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": false,
+    "Url": "https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8",
+    "Error": "Exception calling \"EnsureSuccessStatusCode\" with \"0\" argument(s): \"Response status code does not indicate success: 403 (Forbidden).\"",
+    "CheckedAt": "2026-10-02T11:06:20.4306142Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
+    "Segment": "https://halktv-live.daioncdn.net/halktv/halktv_1080p-1790936490000.ts",
+    "SampleBytes": 3724,
+    "CheckedAt": "2026-10-02T11:06:20.9751979Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web",
+    "Segment": "https://ciner-live.daioncdn.net/ht-spor/ht-spor_1080p-1790938870000.ts?ex=0",
+    "SampleBytes": 4096,
+    "CheckedAt": "2026-10-02T11:06:21.7726850Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3",
+    "Segment": "https://demiroren-live.daioncdn.net/kanald/kanald_1080p-1790938870000.ts?",
+    "SampleBytes": 4096,
+    "CheckedAt": "2026-10-02T11:06:22.6990474Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": false,
+    "Url": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8",
+    "Error": "Exception calling \"EnsureSuccessStatusCode\" with \"0\" argument(s): \"Response status code does not indicate success: 403 (Forbidden).\"",
+    "CheckedAt": "2026-10-02T11:06:23.5092823Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web",
+    "Segment": "https://dogus-live.daioncdn.net/ntv/ntv_1080p-1790939120000.ts?",
+    "SampleBytes": 4096,
+    "CheckedAt": "2026-10-02T11:06:24.1350457Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5",
+    "Segment": "https://dogus-live.daioncdn.net/startv/startv_720p-1790939120000.ts?",
+    "SampleBytes": 4096,
+    "CheckedAt": "2026-10-02T11:06:24.2843385Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-trt1.medya.trt.com.tr/master_360_primary_20261001_143945.ts",
+    "SampleBytes": 1010,
+    "CheckedAt": "2026-10-02T11:06:25.0782659Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-trt2.medya.trt.com.tr/master_720_primary_20261001_1557140.ts",
+    "SampleBytes": 937,
+    "CheckedAt": "2026-10-02T11:06:25.7140045Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": false,
+    "Url": "https://tv-trt3.live.trt.com.tr/master.m3u8",
+    "Error": "Exception calling \"EnsureSuccessStatusCode\" with \"0\" argument(s): \"Response status code does not indicate success: 404 (Not Found).\"",
+    "CheckedAt": "2026-10-02T11:06:26.1396053Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-trtavaz.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-trtavaz.medya.trt.com.tr/master_720_primary_20261001_1557135.ts",
+    "SampleBytes": 4096,
+    "CheckedAt": "2026-10-02T11:06:26.8597065Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-trtcocuk.medya.trt.com.tr/master_720_primary_2735564.ts",
+    "SampleBytes": 3131,
+    "CheckedAt": "2026-10-02T11:06:26.9535570Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720_primary_20261001_2360253.ts",
+    "SampleBytes": 650,
+    "CheckedAt": "2026-10-02T11:06:27.5508228Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-e-okul01.medya.trt.com.tr/master_720_primary_2735836.ts",
+    "SampleBytes": 4096,
+    "CheckedAt": "2026-10-02T11:06:28.3173574Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": false,
+    "Url": "https://tv-e-okul00.medya.trt.com.tr/master.m3u8",
+    "Error": "Exception calling \"EnsureSuccessStatusCode\" with \"0\" argument(s): \"Response status code does not indicate success: 404 (Not Found).\"",
+    "CheckedAt": "2026-10-02T11:06:29.1075212Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": false,
+    "Url": "https://tv-e-okul02.medya.trt.com.tr/master.m3u8",
+    "Error": "Exception calling \"EnsureSuccessStatusCode\" with \"0\" argument(s): \"Response status code does not indicate success: 404 (Not Found).\"",
+    "CheckedAt": "2026-10-02T11:06:31.3554830Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-trtgenc.medya.trt.com.tr/master_360_primary_20261002_157472.ts",
+    "SampleBytes": 847,
+    "CheckedAt": "2026-10-02T11:06:32.0691305Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-trthaber.medya.trt.com.tr/master_360_primary_1571567.ts",
+    "SampleBytes": 4096,
+    "CheckedAt": "2026-10-02T11:06:32.3001241Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-trtkurdi.medya.trt.com.tr/master_720_primary_20261002_2735521.ts",
+    "SampleBytes": 4096,
+    "CheckedAt": "2026-10-02T11:06:32.6731402Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-trtmuzik.medya.trt.com.tr/master_720_primary_2735532.ts",
+    "SampleBytes": 4096,
+    "CheckedAt": "2026-10-02T11:06:33.0004317Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
+    "Segment": "https://tv-trtspor2-esdai.medya.trt.com.tr/master_720p_primary_977547.ts?platform=trtspor",
+    "SampleBytes": 4096,
+    "CheckedAt": "2026-10-02T11:06:33.4927692Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv-trtturk.medya.trt.com.tr/master.m3u8",
+    "Segment": "https://tv-trtturk.medya.trt.com.tr/master_360_primary_1571503.ts",
+    "SampleBytes": 2927,
+    "CheckedAt": "2026-10-02T11:06:33.6367671Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://turkmedya-live.ercdn.net/tv4/tv4.m3u8",
+    "Segment": "https://turkmedya-live.ercdn.net/tv4/tv4_1080p-1790939095.ts",
+    "SampleBytes": 3736,
+    "CheckedAt": "2026-10-02T11:06:33.8726059Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "Ok": true,
+    "Url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
+    "Segment": "https://tv8-live.daioncdn.net/tv8/tv8_1080p-1790939070000.ts?",
+    "SampleBytes": 3725,
+    "CheckedAt": "2026-10-02T11:06:34.4752836Z",
+    "SourcePage": "https://github.com/iptv-org/iptv"
+  }
+]

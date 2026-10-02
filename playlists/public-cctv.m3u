@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 group-title="Public CCTV - IBB Istanbul",IBB Istanbul - anadolu hisari
+https://kamerayayin.ibb.istanbul/turistikcam/anadoluhisari.stream/playlist.m3u8
+#EXTINF:-1 group-title="Public CCTV - IBB Istanbul",IBB Istanbul - beyazit kulesi 2
+https://kamerayayin.ibb.istanbul/turistikcam/beyazitkulesi2.stream/playlist.m3u8
+#EXTINF:-1 group-title="Public CCTV - IBB Istanbul",IBB Istanbul - beyazit meydani
+https://kamerayayin.ibb.istanbul/turistikcam/beyazitmeydan.stream/playlist.m3u8
+#EXTINF:-1 group-title="Public CCTV - IBB Istanbul",IBB Istanbul - buyuk camlica
+https://kamerayayin.ibb.istanbul/turistikcam/buyukcamlica.stream/playlist.m3u8
+#EXTINF:-1 group-title="Public CCTV - IBB Istanbul",IBB Istanbul - dragos
+https://kamerayayin.ibb.istanbul/turistikcam/dragos.stream/playlist.m3u8
+#EXTINF:-1 group-title="Public CCTV - IBB Istanbul",IBB Istanbul - eminonu
+https://kamerayayin.ibb.istanbul/turistikcam/eminonu.stream/playlist.m3u8
