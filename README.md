@@ -1,5 +1,11 @@
 # MP TV
 
+## Son Surum: 2.0.2
+
+[APK indir ve surum notlarini oku](https://github.com/neoxmp/mp-tv-releases/releases/latest).
+
+2.0.2, 2.0.1'de eklenen VOD, ONVIF kesif, kumanda ve coklu izleme yeniliklerine ek olarak Android 9 APK imza dogrulama uyumlulugunu duzeltir. **Android 9'da 2.0.0/2.0.1'den ilk gecis icin APK'yi bu sayfadan indirip mevcut uygulamanin uzerine kurun; uygulamayi kaldirmayin.** Eski surumun hatasi dogru imzali guncellemeyi reddedebilir. 2.0.2'de imza ve dosya butunlugu kontrolleri korunur.
+
 Android TV, televizyon kutusu ve Android cihazlar icin TV ve kamera izleyicisi. Kaynak kodu ozel depoda tutulur; bu depo urun belgelerini, herkese acik hazir listeleri ve uygulama surumlerinin dagitim alanini barindirir.
 
 ## Hazir Listeler
