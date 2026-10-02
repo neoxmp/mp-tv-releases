@@ -6,6 +6,13 @@
 
 2.0.2, 2.0.1'de eklenen VOD, ONVIF kesif, kumanda ve coklu izleme yeniliklerine ek olarak APK imza okuma uyumlulugunu duzeltir. **2.0.0/2.0.1'den ilk gecis icin APK'yi bu sayfadan indirip mevcut uygulamanin uzerine kurun; uygulamayi kaldirmayin.** Android 9 ve 10 testlerinde eski surum dogru imzali guncellemeyi reddetti. 2.0.2'de imza ve dosya butunlugu kontrolleri korunur.
 
+### Surum Dogrulamasi
+
+- 80 otomatik test, release derlemesi ve Android lint kontrolu basarili.
+- Android emulatorunde dort canli yayinla coklu izleme, bos siyah katmanlarin kaldirilmasi, her bolmede filigran ve kontrolleri gizleme/geri getirme kontrol edildi.
+- Guncelleme duzeltmesi uygulanmis, surum kodu 21 olan test kurulumundan GitHub'daki 2.0.2'ye uygulama ici indirme, butunluk/imza dogrulama, Android kurulum izni ve gercek APK kurulumu tamamlandi; cihazda surum kodu 22 dogrulandi. Bu, hatali eski 2.0.0 APK'sindan otomatik guncellemenin calistigi anlamina gelmez; yukaridaki ilk gecis notu gecerlidir.
+- ONVIF kesif ekrani ve taklit Media1 cihaz yanitlariyla profil/RTSP alisverisi denendi. Gercek kamera/NVR donanimi bulunmadigindan marka/model uyumlulugu henuz dogrulanmadi.
+
 Android TV, televizyon kutusu ve Android cihazlar icin TV ve kamera izleyicisi. Kaynak kodu ozel depoda tutulur; bu depo urun belgelerini, herkese acik hazir listeleri ve uygulama surumlerinin dagitim alanini barindirir.
 
 ## Hazir Listeler
