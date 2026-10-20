@@ -9,13 +9,24 @@
 MP TV; M3U/M3U8 kanal listelerini, Xtream canlı yayınlarını, XMLTV program rehberini, kamuya açık şehir kameralarını ve erişim yetkiniz olan RTSP/ONVIF kamera kaynaklarını bir araya getirir. Android TV veya TV kutunuzu televizyon izlemek, kamera/NVR canlı görüntülerini takip etmek ve birden fazla yayını birlikte göstermek için kullanabilirsiniz.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Sürüm-2.0.2-008b90" alt="Sürüm 2.0.2" />
+  <img src="https://img.shields.io/badge/Sürüm-2.0.6-008b90" alt="Sürüm 2.0.6" />
   <img src="https://img.shields.io/badge/Android-6.0%2B-3d8c40" alt="Android 6.0 ve üzeri" />
   <img src="https://img.shields.io/badge/Görüntü-1–32_bölme-39434b" alt="1–32 görüntü bölmesi" />
   <img src="https://img.shields.io/badge/Kaynaklar-TV_·_VOD_·_CCTV-008b90" alt="TV, VOD ve CCTV" />
 </p>
 
 **[APK indir](https://github.com/neoxmp/mp-tv-releases/releases/latest)** · **[Sürüm notları](https://github.com/neoxmp/mp-tv-releases/releases)** · **[Hazır listeler](#hazır-tv-ve-şehir-kamerası-listeleri)** · **[Kurulum](#kurulum-ve-ilk-açılış)** · **[Kumanda](#kumanda-ve-oynatma-kontrolleri)**
+
+**2.0.6 — Çoklu görüntü iyileştirmeleri**
+
+- Kaynak listesinde ilk kanaldan yukarı tuşuyla aramaya geri dönülür.
+- Kontroller gizliyken bir bölmeye odaklanıp OK tuşuna basarak kaynak/main/sub/ses menüsünü açabilirsiniz.
+- Ekrana girişten taşınan OK bırakma olayı menü açmaz; bu ekranda yeni bir OK basışı gerekir.
+- Bölme ayarları ekranın ortasında açılır; alt seçenekler küçük bölmelerde kırpılmaz ve gerektiğinde kumandayla kaydırılır.
+- P+/P− odaktaki bölmeyi kendi seçili listesi içinde değiştirir; diğer bölmeler aynı kalır.
+- **Ayarlar → Kontrolleri otomatik gizle** üzerinden tekli ve çoklu izleme için ortak süreyi 5–3600 saniye olarak ayarlayın. Varsayılan 10 saniye; 0 kapatır.
+- Yayın görüntüsünün tamamı kırpılmadan bölmenin genişlik ve yüksekliğine uyarlanır. Farklı en-boy oranlarında esneme olabilir.
+- Canlı yayınlarda 20 saniye ilerleme olmazsa yeniden bağlantı denenir. Dört kısa denemeden sonra 60 saniye bekleyerek tekrar denenir. Elle durdurma ve duraklatma korunur.
 
 ![Dört gerçek TV yayınıyla MP TV tam ekran çoklu görüntü](assets/multiview-fullscreen.png)
 
@@ -34,13 +45,15 @@ MP TV; M3U/M3U8 kanal listelerini, Xtream canlı yayınlarını, XMLTV program r
 | TV / IPTV | M3U/M3U8 dosyası veya URL'sinden kanal listesi yükleme; Xtream hesabıyla canlı yayın listesi alma |
 | VOD | Film/video bağlantılarını ayrı listede tutma; desteklenen içerikte duraklatma ve sarma |
 | EPG | XMLTV ve gzip sıkıştırılmış XMLTV ile mevcut/sıradaki programın adı, saatleri ve açıklaması |
-| ONVIF keşif | Yerel kamera/NVR arama; IP veya servis adresiyle elle bağlantı; H.264 profil seçimi |
+| ONVIF keşif | Yerel kamera/NVR arama; IP veya servis adresi; Otomatik/Standart/Uniview uyumluluğu; profil ve toplu kanal seçimi |
 | Main / sub stream | Kamera için ana ve alt akış tanımlama; farklı izleme düzenlerinde uygun akışı seçme |
+| RTSP oynatıcı | Otomatik, Media3 veya VLC; uyumlu H.265/HEVC kaynaklarda VLC yedeği |
 | Görüntü duvarı | 1–32 bölme ve 1–8 sütun; TV ve kamera kaynaklarını aynı düzende birleştirme |
 | Ortak favoriler | TV, Public CCTV, CCTV, VOD ve özel listelerden kaynakları ortak favorilerde toplama |
 | Kanal yönetimi | TV kanallarının sırasını/adını değiştirme, gizleme ve geri getirme |
 | Sağlık kontrolü | Art arda erişilemeyen canlı TV kaynaklarını otomatik gizleme; sonraki kontrollerle geri getirme |
 | Kumanda | OK, yön, kanal/ses, INFO, GUIDE ve desteklenen medya tuşlarıyla kullanım |
+| Kontrol görünürlüğü | Tekli/çoklu izlemede ortak süre, 5–3600 saniye veya kapalı; ana Ayarlar menüsünden yönetim |
 | Hazır listeler | GitHub'dan yenilenen TV ve Public CCTV listeleri; ayrı ayrı kapatma |
 | Güncellemeler | Uygulamadan yeni APK kontrolü, bütünlük/imza doğrulaması ve Android onayıyla kurulum |
 
@@ -72,7 +85,7 @@ Public CCTV bölümünde kamuya açık şehir görüntülerini izleyebilir, kend
 | --- | --- |
 | Platform | Android TV, TV kutusu ve uygun Android cihazlar |
 | Asgari Android | Android 6.0 / API 23 |
-| Güncel sürüm | 2.0.2 / sürüm kodu 22 |
+| Güncel sürüm | 2.0.6 / sürüm kodu 26 |
 | Paket | `com.mpolat.mptv` |
 | Dağıtım | GitHub Releases üzerinden imzalı APK |
 | Arayüz | Türkçe, yatay ekran; kumanda/yön tuşları ve dokunmatik kullanım |
@@ -87,7 +100,12 @@ Public CCTV bölümünde kamuya açık şehir görüntülerini izleyebilir, kend
 | Kapasite önerisi | Bellek sınıfı ve H.264 donanım çözücü kapasitesine göre 1–4 aktif yayın |
 | Kamera akışı | Main + isteğe bağlı sub stream |
 | ONVIF | Yerel keşif, elle servis adresi, H.264 profil seçimi ve RTSP URI alma |
+| ONVIF / Uniview | Otomatik/Standart/Uniview modu; desteklenen NVR'de main/sub eşleştirmesi, toplu kanal ekleme ve kanal adları |
 | RTSP taşıma | TCP |
+| RTSP motoru | Otomatik / Media3 / VLC; tekli ve çoklu görüntü |
+| Kontrolleri otomatik gizleme | Ayarlar'da ortak 5–3600 saniye; 0 kapalı; varsayılan 10 saniye |
+| Çoklu görüntü boyutu | Görüntünün tamamını kırpmadan bölmenin genişlik ve yüksekliğine uyarlama |
+| Canlı yayın donma kontrolü | Kare/süre ilerlemesi ve yüklenme izleme; 20 saniyede yeniden bağlantı; uzun kesintilerde bekleyerek tekrar |
 | Kalite seçenekleri | Otomatik, 1080p, 720p, 480p, 360p, Stabilite |
 | Özel kaynak kapasitesi | Public CCTV, CCTV, VOD ve özel listelerde toplam en fazla 20.000 kaynak |
 | Favoriler | Farklı listelerden ortak favoriler |
@@ -114,6 +132,8 @@ Sunucu adresi, kullanıcı adı ve parola ile canlı yayın listesi alınır. Su
 ### Kalite ve Yayın Devamlılığı
 
 Otomatik kalite ve Stabilite seçenekleri, desteklenen çok kaliteli yayınlarda takılma durumunda çözünürlük üst sınırını düşürebilir. Yayın kararlı hale geldiğinde otomatik mod daha yüksek kaliteye yeniden izin verebilir. Oynatma hatalarında sınırlı yeniden deneme ve elle **Yeniden dene** seçeneği bulunur. Sunucu kesintisi, erişim kısıtı veya desteklenmeyen codec uygulama tarafından giderilemez.
+
+Hazır TV listesinde aynı kanal için tanımlanmış yedek akışlar varsa ana akış hata verdiğinde sıradaki yedek denenir. Yedek akışlar ayrı kanal olarak listelenmez; kanal sağlık kontrolü çalışan yedeği de dikkate alır.
 
 ### Kanal Sağlık Kontrolü
 
@@ -163,11 +183,13 @@ NVR kanalının RTSP adresi üretici ve yapılandırmaya göre değişir. MP TV 
 1. **Kaynaklar → Yerel kamera/NVR bul** ekranını açın.
 2. **Yerel ağı tara** ile keşfi başlatın; tarama yaklaşık sekiz saniye sürer.
 3. Cihazı seçin veya **IP / ONVIF adresi** ile elle bağlanın.
-4. Cihazın yetkili ONVIF hesabını girin.
-5. H.264 profillerinden main ve isteğe bağlı sub profil seçin.
-6. Kaynağı seçili listeye ekleyin.
+4. Cihazın yetkili ONVIF hesabını girin. Uyumluluk için **Otomatik**, **Standart ONVIF** veya **Uniview NVR** modunu seçin; ilk denemede Otomatik kullanabilirsiniz.
+5. Profilleri getirin. Tek kamera için aynı kanalın main ve isteğe bağlı sub profilini seçin.
+6. **Kaynağı ekle** ile tek kaynak veya **Tüm kanalları ekle** ile desteklenen NVR kanal eşleştirmelerini seçili listeye ekleyin.
 
 NVR profilleri farklı kamera kanallarını temsil edebilir; aynı kameranın main/sub profillerini eşleştirin. Cihazda ONVIF ve RTSP etkin, hesap yetkili ve cihaz saati doğru olmalıdır.
+
+Uniview uyumluluğu büyük profil yanıtlarını ve eksik kodlama bilgilerini daha esnek işler. Uygun NVR'de kamera adları alınır; alınamazsa kanal numarasıyla ad oluşturulur. Desteklenen profil biçimlerinde kanallar main/sub olarak eşleştirilir. Her üreticinin tüm firmware sürümleri için toplu ekleme garantisi verilmez.
 
 Keşif aynı ağda multicast iletişimi gerektirir. Misafir Wi-Fi izolasyonu, VLAN, VPN, güvenlik duvarı ve emülatör NAT'ı keşfi engelleyebilir. Bu durumda IP/servis adresiyle bağlantı denenebilir.
 
@@ -182,9 +204,9 @@ Ana/alt akışlar ayrı tanımlanır; tekli izleme için akış değiştirilebil
 
 ### Uyumluluk
 
-RTSP, TCP üzerinden oynatılır. H.264 tercih edilmelidir; **H.265 RTSP uyumluluğu varsayılmamalıdır**. ONVIF ile cihazın bulunması her video profilinin oynatılacağı anlamına gelmez. [Android Media3 RTSP kapsamı](https://developer.android.com/media/media3/exoplayer/rtsp).
+RTSP, TCP üzerinden oynatılır. **Ayarlar → RTSP oynatıcı** bölümünde **Otomatik**, **Media3** veya **VLC** seçilebilir. Otomatik modda Media3 belirli RTSP/H.265/HEVC hatalarında VLC'yi dener. VLC hem tekli hem çoklu izleme için kullanılabilir. H.265/HEVC'nin oynatılabilmesi kaynak, cihaz ve çözücüye bağlıdır; H.264 alt akış daha düşük yük için kullanılabilir.
 
-Keşif ekranı ve Media1 profil/RTSP alışverişi test edilmiştir; gerçek kamera/NVR donanımıyla marka-model saha doğrulaması henüz yapılmamıştır. PTZ, kayıt arşivi, alarm ve uzaktan cihaz yapılandırması bu sürümde bulunmaz.
+ONVIF profil seçimi ile video oynatma ayrı aşamalardır. Standart ONVIF profil listesinde H.264 uyumlu profiller filtrelenir; elle eklenen RTSP kaynağı VLC ile H.265/HEVC kullanabilir. Gerçek Android TV kutusu ve Uniview NVR üzerinde profil alma ve RTSP adresi çözme denendi. Tüm marka/model kombinasyonları veya saatler süren dayanıklılık için test sonucu iddia edilmez. PTZ, kayıt arşivi, alarm ve uzaktan cihaz yapılandırması bu sürümde bulunmaz.
 
 ## Çoklu Görüntü ve Görüntü Duvarı
 
@@ -194,9 +216,14 @@ Keşif ekranı ve Media1 profil/RTSP alışverişi test edilmiştir; gerçek kam
 | --- | --- |
 | Bölümleme | 1–32 bölme, 1–8 sütun ve aktif yayın sınırı |
 | Kaynak seçimi | Bölmede gösterilecek kaynağı listelerden seçme |
+| Kaynak aramasına dönüş | İlk kanal satırında Yukarı ile “Kaynak ara” alanına dönme |
+| Bölme seçenekleri | Odaktaki bölmede OK; ekran ortasında kaynak, main/sub, ses ve diğer sekiz seçenek |
+| P+/P− | Yalnızca odaktaki bölmede, o bölmenin seçili listesi içinde kanal değiştirme |
 | Tek bölmeyi büyütme | Kaynağı öne çıkarıp çoklu düzene dönme |
 | Kontrolleri gizle | Üst menü ve bölme başlıkları olmadan bütün düzeni izleme |
 | Kontrolleri geri getir | Geri/Menu veya ekrandaki görünüm düğmesi |
+| Otomatik gizleme | Ana Ayarlar menüsündeki ortak süre; açık seçenek pencereleri korunur |
+| Görüntü boyutlandırma | Görüntünün tamamı kırpılmadan bölmeyi doldurur; en-boy oranları farklıysa esneyebilir |
 | Ses | Seçilen bir bölmeden ses alma veya sessize geçme |
 | Duraklat / oynat | Aktif oynatıcıları birlikte duraklatma/sürdürme |
 | Filigran | Her bölmede MP TV / Mustafa POLAT |
@@ -204,6 +231,10 @@ Keşif ekranı ve Media1 profil/RTSP alışverişi test edilmiştir; gerçek kam
 **32 bölme, her cihazda 32 eşzamanlı akış garantisi değildir.** Bölme düzeni ve aktif sınır ayrı ayarlanır. Sınır aşıldığında eski bir görüntünün bağlantısı kapatılabilir. Dörtten veya cihaz önerisinden fazla aktif yayında kapasite uyarısı gösterilir.
 
 Başlangıç için 2×2 düzen ve dört ya da cihazın önerdiği daha az aktif yayın kullanın. Daha fazla kamera için sub stream, düşük çözünürlük/bitrate ve kablolu ağ tercih edin. Isınma, akıcılık ve ağ kullanımını gözlemleyerek artırın.
+
+**Kontroller gizliyken:** Yön tuşlarıyla bölmeye odaklanın; OK ile o bölmenin seçenek penceresini açın. P+/P− diğer bölmeleri değiştirmez. Kaynak grubu her bölme için saklanır; CCTV'den seçilen bölme CCTV, TV'den seçilen bölme TV içinde gezinir. Favorilerden seçim yapıldıysa gezinme favoriler içinde kalır.
+
+**Donan canlı yayınlar:** Media3 ve VLC için kare sayısı ve oynatma süresi saniyede bir izlenir. Yaklaşık 20 saniye ilerleme olmazsa yeniden bağlantı başlar. Dört kısa denemeden sonra 60 saniye beklenerek tekrar denenir. Duraklatılan, elle durdurulan, arka plandaki veya başka bölme tam ekrandayken görünmeyen yayınlar bu nedenle yeniden başlatılmaz. Kamera sahnesinin hareketsiz olması tek başına donma sayılmaz.
 
 ## Listeler ve Favoriler
 
@@ -243,6 +274,12 @@ TV düzenleyicisinde kanalları yukarı/aşağı taşıyabilir, adını değişt
 Kumandanın Android'e ilettiği tuş kodları kullanılabilir işlevleri etkiler. INFO/GUIDE veya medya tuşu yoksa ekrandaki **Program**, **Kumanda**, **Duraklat** ve sarma kontrollerini kullanabilirsiniz.
 
 **Canlı pause kalıcı DVR değildir.** Uzun duraklamadan sonra canlı noktaya dönülebilir. Kaynak sarılabilir değilse ileri/geri sarma yapılamaz; uygulama desteklenmediğini bildirir.
+
+### Kontrolleri Otomatik Gizleme
+
+**Ana Ayarlar → Kontrolleri otomatik gizle** hem tekli hem çoklu izleme için ortak ayardır. 5–3600 saniye girilebilir: 30 yarım dakika, 60 bir dakika, 120 iki dakika, 300 beş dakikadır. **0** otomatik gizlemeyi kapatır. Değeri yazıp **Uygula**'ya basın. Varsayılan 10 saniyedir; tercih sonraki açılışlar için saklanır.
+
+Tuş/dokunma kullanımı süreyi yeniler. İzleme araçları ve bilgi katmanları gizlenir; açık kaynak seçim pencereleri ve Ayarlar paneli kendiliğinden kapatılmaz. Tekli izlemede OK ile izleme menüsünü, çoklu izlemede Menü/Geri ile üst kontrolleri tekrar açabilirsiniz. Çoklu görünümde kontroller gizliyken OK odaktaki bölmenin seçeneklerini açar.
 
 ## Hazır TV ve Şehir Kamerası Listeleri
 
@@ -293,7 +330,7 @@ Xtream, M3U/M3U8 veya hazır Türkiye listesiyle başlayın. Kaynak seçimi sonr
 | Ağ | TV/video sunucusuna veya kamera/NVR ağına erişim |
 | ONVIF keşif | Aynı ağda multicast; ONVIF etkin ve yetkili hesap |
 | Video | Desteklenen codec/biçim; RTSP için H.264 tercih edin |
-| Alan | APK yaklaşık 8 MB; kurulum, veri ve güncelleme için ek boş alan gerekir |
+| Alan | 2.0.6 APK yaklaşık 47,5 MB (45,3 MiB); kurulum, veri ve güncelleme için ek boş alan gerekir |
 | Çoklu izleme | Akış sayısı, çözünürlük, bitrate, bellek, çözücü ve ağ kapasitesine bağlı |
 | İnternetsiz yerel izleme | Ulaşılabilir yerel kamera/NVR kaynakları; internet TV, uzak EPG ve GitHub için bağlantı gerekir |
 
@@ -347,7 +384,7 @@ Hayır. Canlı akış izleme ve ONVIF keşif/profil/RTSP adresi alma vardır. Ka
 <details>
 <summary><strong>Kamera bulunmuyor veya görüntü açılmıyor. Ne yapmalıyım?</strong></summary>
 
-Ağ, ONVIF/RTSP, hesap yetkisi, cihaz saati ve multicast engellerini kontrol edin. IP/servis adresiyle deneyin. H.264 profil kullanın; H.265 RTSP'yi varsaymayın. Keşif ve video oynatma ayrı aşamalardır.
+Ağ, ONVIF/RTSP, hesap yetkisi, cihaz saati ve multicast engellerini kontrol edin. IP/servis adresiyle ve ONVIF uyumluluğu için Otomatik/Uniview seçenekleriyle deneyin. H.265/HEVC RTSP kaynaklarında RTSP oynatıcısını Otomatik veya VLC yapın; cihaz kapasitesi yetersizse H.264 alt akış kullanın. Keşif, profil seçimi ve video oynatma ayrı aşamalardır.
 
 </details>
 
